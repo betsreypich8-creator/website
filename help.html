@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Buddy - Help & Services</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'main-teal': '#20c997',
+                        'fun-coral': '#ff6b81',
+                        'bright-yellow': '#FBBF24',
+                        'text-dark': '#343a40',
+                        'light-bg': '#f8f9fa',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-light-bg font-sans text-text-dark min-h-screen">
+
+    
+    <header class="sticky top-0 z-10 bg-white shadow-lg">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center space-x-2 text-3xl font-black text-main-teal hover:text-fun-coral transition duration-300">
+                <svg class="w-8 h-8 text-fun-coral" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1v-3.25m-7-5.45c-1.39-1.39-3.7-1.39-5.1 0C2.5 12.18 2.5 14.5 3.9 15.9l8 8 8-8c1.39-1.39 1.39-3.7 0-5.1-1.39-1.39-3.7-1.39-5.1 0l-1 1-1-1zM12 11V3"></path>
+                    <rect x="3" y="1" width="18" height="20" rx="3" ry="3"></rect>
+                    <line x1="8" y1="17" x2="16" y2="17" stroke-width="2" stroke-linecap="round"></line>
+                </svg>
+                <span>Slide Buddy!</span>
+            </a>
+            <div class="space-x-4 text-base font-medium">
+                <a href="website.html" class="text-gray-600 hover:text-main-teal transition duration-300">HOME</a>
+                <span class="text-gray-400">&bull;</span>
+                <a href="aboutus.html" class="text-gray-600 hover:text-main-teal transition duration-300">ABOUT</a>
+                <span class="text-gray-400">&bull;</span>
+                <a href="help.html" class="text-main-teal font-extrabold hover:text-fun-coral transition duration-300">HELP</a>
+                <span class="text-gray-400">&bull;</span>
+                <a href="contacts.html" class="text-gray-600 hover:text-main-teal transition duration-300">CONTACT</a>
+            </div>
+        </nav>
+    </header>
+
+   
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <h1 class="text-5xl font-black text-center text-text-dark mb-12">
+            Awesome Things You Can Do! 🛠️
+        </h1>
+
+        <div class="space-y-12">
+           
+            <div class="flex flex-col md:flex-row items-center bg-white p-6 rounded-2xl shadow-xl border-l-8 border-fun-coral">
+                <div class="md:w-1/3 text-center mb-4 md:mb-0">
+                    <div class="text-6xl text-fun-coral">🎨</div>
+                </div>
+                <div class="md:w-2/3 md:pl-6 text-center md:text-left">
+                    <h2 class="text-2xl font-bold text-text-dark mb-2">Design Made Simple</h2>
+                    <p class="text-lg text-gray-700">Tons of ready-made templates, fun colors, and easy drag-and-drop tools. If you can click, you can design!</p>
+                </div>
+            </div>
+
+        
+            <div class="flex flex-col md:flex-row items-center bg-white p-6 rounded-2xl shadow-xl border-l-8 border-main-teal">
+                <div class="md:w-1/3 text-center mb-4 md:mb-0">
+                    <div class="text-6xl text-main-teal">🔗</div>
+                </div>
+                <div class="md:w-2/3 md:pl-6 text-center md:text-left">
+                    <h2 class="text-2xl font-bold text-text-dark mb-2">Share and Work Together</h2>
+                    <p class="text-lg text-gray-700">Send a quick link and your friends can join in right away! Real-time collaboration makes group projects painless.</p>
+                </div>
+            </div>
+
+           
+            <div class="flex flex-col md:flex-row items-center bg-white p-6 rounded-2xl shadow-xl border-l-8 border-bright-yellow">
+                <div class="md:w-1/3 text-center mb-4 md:mb-0">
+                    <div class="text-6xl text-bright-yellow">💾</div>
+                </div>
+                <div class="md:w-2/3 md:pl-6 text-center md:text-left">
+                    <h2 class="text-2xl font-bold text-text-dark mb-2">Save and Export</h2>
+                    <p class="text-lg text-gray-700">Your work is always saved automatically. When you're done, download your slides as a PDF or image, ready to present!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+   
+    <footer class="bg-text-dark text-white py-6 mt-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-sm">Made with fun! &copy; 2025 Slide Buddy!</p>
+        </div>
+    </footer>
+</body>
+</html>
